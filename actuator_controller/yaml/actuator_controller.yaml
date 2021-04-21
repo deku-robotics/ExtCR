@@ -1,0 +1,61 @@
+actuators:
+  'motor1': {
+      id: 1,
+      name: 'motor1',
+      transmission: 66, 
+      enc_ticks: 3000,
+      type: 'uart',
+      addr: '/dev/ttyO1',
+      cmd_mode: 'pos',
+      max_pos: 1000.0,
+  }
+  'motor2': {
+      id: 2,
+      name: 'motor2',
+      transmission: 66,
+      enc_ticks: 3000,
+      type: 'uart',
+      addr: '/dev/ttyO2',
+      cmd_mode: 'pos',
+      max_pos: 1000.0,
+  }
+  'motor3': {
+      id: 3,
+      name: 'motor3',
+      transmission: 66,
+      enc_ticks: 3000,
+      type: 'uart',
+      addr: '/dev/ttyO4',
+      cmd_mode: 'pos',
+      max_pos: 1000.0,
+  }
+  'motor4': {
+      id: 4,
+      name: 'motor4',
+      transmission: 51,
+      enc_ticks: 3000,
+      type: 'uart',
+      addr: '/dev/ttyO5',
+      cmd_mode: 'pos',
+      max_pos: 1000.0,
+  }
+  'motor5': {
+      id: 5,
+      name: 'motor5',
+      transmission: 51,
+      enc_ticks: 3000,
+      type: 'spi',
+      addr: '/dev/ttySC1',
+      cmd_mode: 'pos',
+      max_pos: 1000.0,
+  }
+  'motor6': {
+      id: 6,
+      name: 'motor6',
+      transmission: 51,
+      enc_ticks: 3000,
+      type: 'spi',
+      addr: '/dev/ttySC0',
+      cmd_mode: 'pos',
+      max_pos: 1000.0,
+  }
